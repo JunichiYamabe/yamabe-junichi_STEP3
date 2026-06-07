@@ -27,29 +27,44 @@
         </section>
       
         <section id="Menu">
-          <h2>Menu</h2>
-            <div class="coffee">
-              <img src="images/coffee.jpg" alt="コーヒー">
-              <p>ブレンドコーヒー</p>
-            </div>
+          <div class="menu-container">
+            <h2>Menu</h2>
             
-            <div class="cake">
-              <img src="images/bakedCheeseCake.jpg" alt="ケーキ">
-              <p>ベイクドチーズケーキ</p>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <div class="image-wrapper">
+                  <img src="images/coffee.jpg" alt="コーヒー">
+                </div>
+                <p class="menu-label">ブレンドコーヒー</p>
+              </div>
+          
+              <div class="menu-item">
+                <div class="image-wrapper">
+                  <img src="images/bakedCheeseCake.jpg" alt="ケーキ">
+                </div>
+                <p class="menu-label">ベイクドチーズケーキ</p>
+              </div>
+          
+              <div class="menu-item">
+                <div class="image-wrapper">
+                  <img src="images/cafeLatte.jpg" alt="カフェラテ">
+                </div>
+                <p class="menu-label">カフェラテ</p>
+              </div>
             </div>
-
-            <div class="latte">
-              <img src="images/cafeLatte.jpg" alt="ラテ">
-              <p>カフェラテ</p>
-            </div>
+          </div>
         </section>
 
         <section id="Contact">
-          <h2>Contact</h2>
-          <p>お名前：</p><input type="text" >
-          <p>メールアドレス：</p><input type="email">
-          <p>お問い合わせ内容：</p><textarea></textarea><br>
+          <form>
+            <h2>Contact</h2>
+            <label for="name">お名前：</label><input type="text" id="name" name="name"><br>
+            <label for="email">メール：</label><input type="email" id="email" name="email"><br>
+            <label for="question">お問い合わせ内容：
+            </label><textarea id="question" name="question" rows="4"></textarea><br>
+          </form>  
           <button>送信</button>
+          
         </section>
       </main>
 
