@@ -172,11 +172,11 @@ inherits: color;
 .submit-btn {
   width: 100%;
   padding: 14px;
-  background-color:
-  color: #fff;
+  background-color:#f7f9f6;
+  color: #333;
   font-size: 1rem;
   font-weight: bold;
-  border: none;
+  border: 1px solid lightgray;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 10px;
