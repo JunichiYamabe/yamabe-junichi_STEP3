@@ -56,15 +56,28 @@
         </section>
 
         <section id="Contact">
-          <form>
-            <h2>Contact</h2>
-            <label for="name">お名前：</label><input type="text" id="name" name="name"><br>
-            <label for="email">メール：</label><input type="email" id="email" name="email"><br>
-            <label for="question">お問い合わせ内容：
-            </label><textarea id="question" name="question" rows="4"></textarea><br>
-          </form>  
-          <button>送信</button>
+          <div class="contact-container">
+            <h2 class="contact-title">Contact</h2>
+            
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">お名前：</label>
+                <input type="text" id="name" name="name">
+              </div>
           
+              <div class="form-group">
+                <label for="email">メールアドレス：</label>
+                <input type="email" id="email" name="email">
+              </div>
+          
+              <div class="form-group">
+                <label for="message">お問い合わせ内容：</label>
+                <textarea id="message" name="message" rows="6"></textarea>
+              </div>
+          
+              <button type="submit" class="submit-btn">送信</button>
+            </form>
+          </div>
         </section>
       </main>
 
